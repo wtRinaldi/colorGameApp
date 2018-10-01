@@ -1,0 +1,81 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.6%;
+	border-radius: 10%;
+	transition: background .5s;
+	-webkit-transition: background .5s;
+	-moz-transition: background .5s;
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+#infoBar {
+	height: 50px;
+	background-color: white;
+	text-align: center;
+
+
+
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	background-color: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+	padding: 20px 0;
+}
+
+#colorDisplay {
+	color: white;
+	font-size: 200%;
+}
+
+#message {
+	display: inline-block;
+	font-size: 20px;
+	width: 20%;
+	font-weight: 700;
+	color: steelblue;
+	text-transform: uppercase;
+}
+
+.selected {
+	color: white;
+	background-color: steelblue;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	outline: none;
+	transition: all .2s;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+}
+
+button:hover {
+	color: white;
+	background-color: steelblue;
+}
