@@ -32,12 +32,12 @@ function setupSquares() {
 		square.addEventListener('click', function() {
 			let clickedColor = this.style.background;
 			if (clickedColor === pickedColor) {
-				message.innerHTML= 'Richtig!';
+				message.innerHTML= 'Bingo!';
 				resetButton.innerHTML = 'Play Again?';
 				changeColors();
 			} else {
 				this.style.background = '#232323';
-				message.innerHTML = 'Das ist nicht sehr gut :(';
+				message.innerHTML = 'Nope';
 			}  
 		})
 	})	
